@@ -1,0 +1,78 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#mapdiv {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#titleD {
+  position: absolute;
+  top: 1.1em;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+#titleS {
+  font-size: large;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #AAA;
+  background-color: #FFF;
+  padding: 0.4em 0.8em 0.4em 0.8em;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+.fudoki-div-icon {
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: auto !important;
+  height: auto !important;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+}
+.fudoki-marker-cluster {
+  background-color: rgba(180, 180, 180, 0.6);
+  background-clip: padding-box;
+  border-radius: 50%;
+}
+.fudoki-marker-cluster div {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(60, 60, 60, 0.6);
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+  margin-top: 3px;
+  text-align: center;
+  border-radius: 50%;
+}
+.fudoki-marker-cluster span {
+  line-height: 18px;
+  font-size: 13px;
+}
+.leaflet-popup-content {
+  margin: 10px 15px;
+  font-size: 13px;
+  white-space: nowrap;
+  width: auto !important;
+}
+.leaflet-popup-content hr {
+  margin: 0.4em 0 0.4em 0;
+}
+.modal-body {
+  font-size: 13px;
+}
+.remark {
+  display: inline;
+  font-size: 11px;
+}
+

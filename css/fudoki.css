@@ -16,7 +16,7 @@ html, body {
   display: inline-block;
   width: 100%;
   text-align: center;
-  z-index: 10;
+  z-index: 10000;
 }
 #titleS {
   font-size: large;

@@ -102,6 +102,6 @@ $(function(){
       }
     });
     markerclusters.addLayer(fudokiLayer);
-    map.fitBounds(markerclusters);
+    map.fitBounds(markerclusters.getBounds());
   });
 });

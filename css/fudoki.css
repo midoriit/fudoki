@@ -68,6 +68,9 @@ html, body {
 .leaflet-popup-content hr {
   margin: 0.4em 0 0.4em 0;
 }
+.leaflet-top {
+  z-index: 10000;
+}
 .modal-body {
   font-size: 13px;
 }

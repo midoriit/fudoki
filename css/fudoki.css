@@ -17,6 +17,9 @@ html, body {
   width: 100%;
   text-align: center;
   z-index: 1000;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 #titleS {
   font-size: large;
